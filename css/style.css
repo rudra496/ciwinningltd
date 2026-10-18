@@ -703,6 +703,20 @@ html.js .reveal[data-delay="3"] { transition-delay: .3s; }
 }
 
 /* ============================================================
+   TRUST STRIP
+   ============================================================ */
+.trust-strip {
+  display: flex; align-items: center; justify-content: center; gap: 1.1rem;
+  flex-wrap: wrap;
+  background: #fff; border: 1px solid var(--line); border-left: 5px solid var(--gold-500);
+  border-radius: var(--r-md); box-shadow: var(--shadow-sm);
+  padding: 1.25rem 1.7rem; max-width: 920px; margin-inline: auto;
+}
+.trust-strip svg { width: 34px; height: 34px; color: var(--gold-500); flex: none; }
+.trust-strip p { font-size: 1rem; color: var(--ink-700); text-align: left; flex: 1 1 320px; }
+.trust-strip strong { color: var(--ink-900); }
+
+/* ============================================================
    RESPONSIVE
    ============================================================ */
 @media (max-width: 1080px) {

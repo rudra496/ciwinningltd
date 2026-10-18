@@ -130,7 +130,10 @@ for pg, needles in must_have.items():
 banned = ["since 2015", "since 2010", "10,000+ students", "500+ students", "years of experience",
           "98% success", "visa guaranteed", "100% visa",
           "+44 7823", "+234 703", "794298", "486 5270", "wa.me", "tel:", "mailto:",
-          "9:00", "info@ciwinningltd.com"]
+          "9:00", "info@ciwinningltd.com",
+          "our offices", "two countries, one team", "port harcourt office",
+          "offices in the uk", "nigeria offices", "visit our office", "two offices",
+          "offices — uk"]
 for pg in PAGES:
     html = open(os.path.join(ROOT, pg), encoding="utf-8").read().lower()
     for b in banned:
