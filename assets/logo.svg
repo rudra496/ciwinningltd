@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CI Winning Ltd logo">
+  <defs>
+    <linearGradient id="ciw-shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12356E"/>
+      <stop offset="1" stop-color="#071634"/>
+    </linearGradient>
+    <linearGradient id="ciw-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC94A"/>
+      <stop offset="1" stop-color="#F0A500"/>
+    </linearGradient>
+  </defs>
+  <!-- shield -->
+  <path d="M32 3 56 11v20c0 14.2-9.8 24.6-24 30C17.8 55.6 8 45.2 8 31V11L32 3z" fill="url(#ciw-shield)" stroke="url(#ciw-gold)" stroke-width="2.5"/>
+  <!-- graduation cap: board -->
+  <path d="M32 18 50 26l-18 8-18-8 18-8z" fill="#FFFFFF"/>
+  <!-- cap base -->
+  <path d="M21 30.2v6.3c0 2.9 4.9 5.2 11 5.2s11-2.3 11-5.2v-6.3l-11 4.9-11-4.9z" fill="#FFFFFF" opacity=".92"/>
+  <!-- tassel -->
+  <path d="M50 26v9" stroke="url(#ciw-gold)" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="50" cy="37.6" r="2.4" fill="url(#ciw-gold)"/>
+  <!-- winning chevron -->
+  <path d="M23.5 47.5 32 52l8.5-4.5" fill="none" stroke="url(#ciw-gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
