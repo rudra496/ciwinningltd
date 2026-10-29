@@ -7,8 +7,8 @@ students win places at universities in the **United Kingdom**, **Canada**, the
 
 **Live site:** https://rudra496.github.io/ciwinningltd/
 
-> ℹ️ Contact channels (phone, WhatsApp, email) are being set up and will be added
-> to the site the moment they are live. The Port Harcourt office address is on the
+> ℹ️ Official contact channels: **WhatsApp +44 7397 267592** · **ciwinningltd@gmail.com** —
+> these are the only contact channels. The Port Harcourt office address is on the
 > [Contact page](https://rudra496.github.io/ciwinningltd/contact.html).
 
 ## Pages

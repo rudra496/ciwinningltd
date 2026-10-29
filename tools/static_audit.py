@@ -111,8 +111,10 @@ for pg in PAGES:
 # ---- 7. required content spot-checks (parsed from artifact) ----
 must_have = {
     "index.html": ["CI WINNING", "Eligibility", "Personal Statement", "Pre-departure",
-                   "Orientation", "Elioparanwo"],
-    "contact.html": ["Elioparanwo", "Coming Soon", "visit"],
+                   "Orientation", "Elioparanwo", "+44 7397 267592",
+                   "wa.me/447397267592", "ciwinningltd@gmail.com"],
+    "contact.html": ["Elioparanwo", "Contact Us Directly", "visit",
+                     "+44 7397 267592", "wa.me/447397267592", "ciwinningltd@gmail.com"],
     "services.html": ["course-guidance", "eligibility-assessment", "application-support",
                       "document-preparation", "sop-guidance", "application-followup",
                       "offer-guidance", "pre-departure", "orientation"],
@@ -129,8 +131,8 @@ for pg, needles in must_have.items():
 # ---- 8. banned strings: fake claims + unpublished contact info (his order, 2026-10-18) ----
 banned = ["since 2015", "since 2010", "10,000+ students", "500+ students", "years of experience",
           "98% success", "visa guaranteed", "100% visa",
-          "+44 7823", "+234 703", "794298", "486 5270", "wa.me", "tel:", "mailto:",
-          "9:00", "info@ciwinningltd.com",
+          "+44 7823", "+234 703", "794298", "486 5270", "9:00",
+          "info@ciwinningltd.com",
           "our offices", "two countries, one team", "port harcourt office",
           "offices in the uk", "nigeria offices", "visit our office", "two offices",
           "offices — uk"]
